@@ -17,8 +17,8 @@ i = 0;
  *{
  *Infinite loop - no increase of variable
  *putchar(i);
-}
-*/
+ *}
+ */
 
 printf("Infinite loop avoided! \\o/\n");
 return (0);
