@@ -37,6 +37,6 @@ break;
 	}
 
 }
-return (number * sign);
+return (number *sign);
 
 }
