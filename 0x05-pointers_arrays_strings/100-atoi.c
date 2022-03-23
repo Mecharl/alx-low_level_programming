@@ -1,6 +1,16 @@
 #include "main.h"
 
 /**
+ * is_numerical - check if it is adigit
+ * @n: Number
+ * Return: if it is a number, return 1 else return 0
+ */
+int is_numerical(unsigned int n)
+{
+return (n >= '0' && n <= '9');
+}
+
+/**
  * _atoi - convert a string to an integer
  *@s: String
  *Return: Return tne num
